@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+    
+    padding: 20px;
+    
+}
+.search{
+    margin-left: px;
+}
+
+.icons{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.collections{
+    display: flex;
+   
+    margin-left: 300px;
+    
+}
+.iconz{
+    font-size: 40px;
+}
+.icon{
+    padding: 20px;
+    
+    
+}
+.search{
+    margin-top: 40px;
+    margin-left: 100px;
+    
+    
+}
+.sch{
+    width: 300px;
+    height: 40px;
+    font-size: larger;
+    border-radius: 10px;
+}
+.navbar{
+    
+    margin-top: 100px;
+    margin-left: -800px;
+    
+    
+    
+}
+
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+.nav2{
+    font-size: 10px;
+   
+    background-color: orange;
+    height: 40px;
+    
+   
+    width: 100%;
+    
+  
+}
+.h1{
+    margin-left: 40%;
+    
+}
+.main-content{
+   background-color: rgb(214, 240, 240);
+    display: flex;
+    padding: 30px;
+    margin-top: 100px;
+    
+}
+.main-head{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+.para{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(8, 8, 88);
+}
+.shp{
+    margin-left: 80px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    padding: 20px;
+    border-radius: 10px;
+    
+   
+}
+.img1{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.disc{
+    margin-left: -550px;
+    margin-top: -80px;
+    font-size: larger;
+}
+.header .iconse{
+    color: rgb(5, 5, 26);
+    font-size: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+    display: none;
+}
+#check{
+    display: none;
+} 
+.header .close-icon{
+    font-size: 50px;
+    color: rgb(4, 1, 15);
+    position: absolute;
+    cursor: pointer;
+    
+    top: 40px;
+    display: none; 
+
+}
+.col11{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.col12{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+ 
+}
+.new-collection{
+    margin: 50px;
+}
+.licon{
+   display: flex;
+   margin-left: 50px;
+   padding: 30px;
+}
+.last{
+    margin-top: -250px;
+    display: flex;
+
+}
+.imglast{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -10px;
+  
+}
+.enddiv{
+    display: flex;
+    margin-left: 80px;
+    
+}
+.end{
+    padding: 100px;
+    line-height: 1.5rem;
+    
+}
+
+.img40{
+    width: 50px;
+    height: 30px;
+}
+.enddiv2{
+    display: flex;
+    margin-left: 160px;
+    
+    
+}
+.smimages{
+    margin-left: 730px;
+}
+
+
+
+
+
+
+
+
+@media (max-width :768px){
+    .header .iconse{
+        display: flex;
+       
+        
+    }
+    .navbar{
+        position: absolute;
+        top:140px;
+        left: 0;
+        width: 300px;
+        background-color:black;
+         display: none; 
+    }
+    .navbar a{
+        display: flex;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        margin: 1.5rem 0px;
+        justify-content: center;
+    }
+    .nav2{
+       margin-top: 160px;
+       
+    }
+    .h1{
+        margin-left: -1px;
+        padding-right: 10px;
+    }
+    .disc{
+        margin-top: 0px;
+        margin-left: 0;
+        color:red;
+        font-weight: 700;
+    }
+
+        
+
+
+    #check:checked~.navbar{
+        
+       display: block;
+       font-size: 1.1rem;
+       text-align: center;
+       margin: 1.5rem 0px;
+       justify-content: center;
+       
+
+    }
+    
+    #check:checked~label .iconse{
+        display: none;
+    }
+    #check:checked~label .close-icon{
+        display: flex;
+    }
+    .main-content
+    {
+        
+        flex-wrap: wrap;
+        margin-top: -0px;
+    }
+    .main-head{
+        margin-top: 30px;
+    }
+    .header{
+        top: -10px;
+    }
+    .collections{
+        margin-left: 12px;
+    }
+    .search .sch{
+        margin-left: -300px;
+        margin-top: 50px;
+        width: 250px;
+        
+    }
+    .img11{
+        margin-top: -30px;
+    }
+    .col11{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .col12{
+        flex-wrap: wrap;
+        margin-top: 70px;
+        gap: 40px;
+
+     
+    }
+    .last{
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    .enddiv{
+        flex-wrap: wrap;
+        padding: 50px;
+        margin-top: -60px;
+    }
+    .end{
+        margin-top: -100px;
+        padding: 90px;
+        margin-left: -80px;
+        margin-right: 100px;
+    }
+    .enddiv2{
+        flex-wrap: wrap;
+        
+    }
+    .reserve{
+        margin-top: -80px;
+        margin-left: -20px;
+    }
+    .smimages{
+        margin-top: 10px;
+        margin-left: -190px;
+    }
+    
+    
+        
+       
+
+    
+
+
+}
+/* carousal */
+/* General styles for the carousel container */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust based on your needs */
+    overflow: hidden;
+}
+
+/* Styles for the inner container */
+.carousel-inner {
+    display: flex;
+    width: 600%; /* 100% for each of the 6 images */
+    animation: slide 800s infinite; /* Adjust timing as needed */
+}
+
+/* Styles for each carousel item */
+.carousel-item {
+    width: 600px;
+    height: 800px;
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Keyframes for the sliding effect */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    16.67% { transform: translateX(-100%); }
+    33.33% { transform: translateX(-200%); }
+    50% { transform: translateX(-300%); }
+    66.67% { transform: translateX(-400%); }
+    83.33% { transform: translateX(-500%); }
+    100% { transform: translateX(-600%); }
+}
